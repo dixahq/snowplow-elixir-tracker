@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1beta1
+kind: Component
+metadata:
+  name: snowplow-elixir-tracker
+  description: Snowplow event tracker for elixir. Add analytics to your elixir/phoenix apps.
+  annotations:
+    github.com/project-slug: dixahq/snowplow-elixir-tracker
+  tags:
+    - elixir
+spec:
+  type: library
+  lifecycle: production
+  owner: dixahq-backend-knowledge
